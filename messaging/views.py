@@ -10,7 +10,6 @@ from drf_yasg.utils import swagger_auto_schema
 from .permissions import IsOwner
 from .models import UserMessage
 from .serializers import UserMessageSerializer
-# from users.serializers import UserLogSerializer
 
 
 
@@ -133,10 +132,5 @@ class SendMessageView(APIView):
             return Response(user_msg_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         else:user_msg_serializer.save(to_user=receiver_user, from_user=sender_user)
             
-        # log = {'user': sender_user.id,'action': "send"}
-        # log_serializer = UserLogSerializer(data=log)
-        # if not log_serializer.is_valid():return Response(log_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-        # else:log_serializer.save()
-
         return Response({'success': True,'message': 'Message sent successfully'}, status=status.HTTP_201_CREATED)
 
