@@ -1,0 +1,48 @@
+# .gitignore for Django Rest Project
+
+# Virtual Environment
+venv/
+venv*/
+.env
+
+# Database files
+*.sqlite3
+*.db
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# IDE settings
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Python bytecode
+*.pyc
+
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
+
+# Local development settings
+.env.local
+
+# macOS system files
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Pipenv
+Pipfile.lock
