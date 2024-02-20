@@ -5,8 +5,8 @@ app_name = "messaging"
 
 urlpatterns = [
 
-    path('inbox/', InboxMessagesView.as_view(), name='inbox'),
-    path('outbox/', OutboxMessagesView.as_view(), name='outbox'),
+    path('inbox/', InboxMessagesView.as_view(), name='inbox_message'),
+    path('outbox/', OutboxMessagesView.as_view(), name='outbox_message'),
     path('send-message/', SendMessageView.as_view(), name='send_message'),
     
 ]

@@ -6,7 +6,7 @@ from .views import CreateUserAPIView, UserRetriveUpdateAPIView, UserListView
 app_name = 'users'
 urlpatterns = [
     path('register/', CreateUserAPIView.as_view(), name='register-user'),
-    path('list-update/', UserRetriveUpdateAPIView.as_view(), name='update-user'),
+    path('list-update/', UserRetriveUpdateAPIView.as_view(), name='list-update'),
     path('all-users/', UserListView.as_view(), name='user-list'),
 
 
