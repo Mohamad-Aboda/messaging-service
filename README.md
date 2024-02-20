@@ -125,7 +125,7 @@ To build and run the Django Messaging App using Docker, follow these steps:
     make down
     ```
 
-Make sure to have Docker and Docker Compose installed before running these commands. If you encounter any issues, refer to the [Local Setup](#local-setup-) section for alternative methods.
+Make sure to have Docker and Docker Compose installed before running these commands. If you encounter any issues, refer to the [Local Setup](#local-setup) section for alternative methods.
 
 Feel free to adjust the instructions based on your specific needs or provide more details if necessary.
 
