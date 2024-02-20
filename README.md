@@ -42,7 +42,7 @@ Django Messaging App is a simple messaging application built with Django REST Fr
 
 ## Getting Started
 
-### Local Setup
+## Local Setup
 
 1. Clone the repository and move the-project-directory :
 
@@ -60,13 +60,13 @@ Django Messaging App is a simple messaging application built with Django REST Fr
 
 3. Activate the virtual environment:
 
-    - ## On Windows:
+    - ### On Windows:
 
         ```bash
         .\venv\Scripts\activate
         ```
 
-    - ## On Linux:
+    - ### On Linux:
 
         ```bash
         source venv/bin/activate
@@ -138,7 +138,7 @@ Explore the API using <b>Swagger<b> Tool.:
 
 ![-------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Swagger Endpoints
+## Swagger Endpoints
 
 | Tool         | Endpoint                         | Description                          |
 |--------------|----------------------------------|--------------------------------------|
