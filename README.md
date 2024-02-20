@@ -60,13 +60,13 @@ Django Messaging App is a simple messaging application built with Django REST Fr
 
 3. Activate the virtual environment:
 
-    - # On Windows:
+    - ## On Windows:
 
         ```bash
         .\venv\Scripts\activate
         ```
 
-    - # On Linux:
+    - ## On Linux:
 
         ```bash
         source venv/bin/activate
